@@ -18,7 +18,8 @@ var userRoutes = require("./routes/user");
 var app = express();
 
 mongoose.connect(
-  "mongodb://localhost:27017/shopping",
+  "mongodb://admin:admin009@ds155614.mlab.com:55614/shopping" ||
+    "mongodb://localhost:27017/shopping",
   { useMongoClient: true }
 );
 require("./config/passport");
