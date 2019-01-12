@@ -1,17 +1,18 @@
-<div class="row">
-    <div class="col-md-8 col-md-offset-2">
-        <h1>User Profile</h1>
-        <hr>
-        <h2>My Orders</h2>
-        {{# each orders }}
+<div style="margin-bottom: 150px">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <h1>User Profile</h1>
+            <hr>
+            <h2>My Orders</h2>
+            {{# each orders }}
             <div class="panel panel-default">
                 <div class="panel-body">
                     <ul class="list-group">
                         {{# each this.items }}
-                            <li class="list-group-item">
-                                <span class="badge"><i class="fas fa-rupee-sign"></i> {{ this.price }}</span>
-                                {{ this.item.title }} || {{ this.qty }} Units
-                            </li>
+                        <li class="list-group-item">
+                            <span class="badge"><i class="fas fa-rupee-sign"></i> {{ this.price }}</span>
+                            {{ this.item.title }} || {{ this.qty }} Units
+                        </li>
                         {{/each}}
                     </ul>
                 </div>
@@ -19,6 +20,7 @@
                     <strong>Total Price: <i class="fas fa-rupee-sign"></i> {{ this.cart.totalPrice }}</strong>
                 </div>
             </div>
-        {{/each}}
+            {{/each}}
+        </div>
     </div>
 </div>
