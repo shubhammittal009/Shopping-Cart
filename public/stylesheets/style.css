@@ -1,0 +1,74 @@
+body {
+  background-color: rgba(0, 0, 255, 0.212);
+  font-family: "Crete Round", serif;
+}
+
+.buygames {
+  color: rgb(0, 64, 182);
+}
+
+.fuller {
+  margin-bottom: 20.5%;
+}
+
+.links {
+  font-family: "Crete Round", serif;
+  font-size: 20px;
+}
+
+.thumbnail img {
+  max-height: 170px;
+  width: 100%;
+}
+
+.thumbnail .description {
+  color: #7f7f7f;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar {
+  /* background: rgb(204, 0, 0); */
+  background: rgb(25, 92, 218);
+  border: 0;
+  border-radius: 0;
+}
+
+.navbar .navbar-brand {
+  color: white;
+  font-family: "Pacifico", cursive;
+  font-size: 32px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  /* color: rgba(255, 0, 0, 0.815); */
+  /* font-weight: 500; */
+  font-family: "Caveat Brush", cursive;
+  font-size: 20px;
+}
+
+.badge {
+  background: rgb(255, 241, 214);
+  /* background: rgba(255, 0, 0, 0.822); */
+  color: rgb(0, 64, 182);
+  font-weight: bolder;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  background-color: rgb(0, 64, 182);
+  color: rgb(255, 255, 255);
+}
+
+.navbar-default .navbar-brand:hover {
+  background-color: rgb(0, 64, 182);
+  color: rgb(255, 255, 255);
+}
+
+.row {
+  font-family: "Crete Round", serif;
+}
