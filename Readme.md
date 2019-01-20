@@ -1,6 +1,8 @@
 ## Full Stack Website implemented in Node.js (Project) => Shopping-Cart
 ### By Shubham Mittal
 
+![flashcart](https://user-images.githubusercontent.com/46110216/51437944-67fbba00-1ccb-11e9-8bb4-f5c0430be030.png)
+
 ## HOW TO RUN
 
 - Download ZIP or Clone the repository
